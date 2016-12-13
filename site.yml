@@ -1,0 +1,7 @@
+- hosts: all
+  sudo: yes
+#  vars_files:
+#    - "vars/admins.yml"
+#    - "vars/header.yml"
+  roles:
+    - { role: apache2 }
