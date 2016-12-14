@@ -4,4 +4,5 @@
 #    - "vars/admins.yml"
 #    - "vars/header.yml"
   roles:
+    - { role: main}
     - { role: apache2 }
