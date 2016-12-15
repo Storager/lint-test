@@ -1,5 +1,5 @@
-before_script:
-  - pip2 install ansible-lint --user
+#before_script:
+#  - pip2 install ansible-lint --user
 
 job1:
   script: "ansible-lint site.yml"
