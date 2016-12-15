@@ -1,0 +1,4 @@
+before_script:
+  - pip2 install ansible-lint
+
+script: ansible-lint
