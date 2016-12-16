@@ -1,7 +1,10 @@
 - name: Install apache2
   apt:
-    pkg: apache2
+    pkg: "{{ item }}"
     update_cache: true
-    state: installed
+  with_items:
+      - apache2
+      - libapache2-mod-php5
+      - php5-mysql
   tags:
     - apache2
