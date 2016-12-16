@@ -1,0 +1,5 @@
+---
+ansible_ssh_host: 138.197.37.196
+ansible_ssh_user: root
+#ansible_ssh_private_key_file: ".vagrant/machines/default/virtualbox/private_key"
+mysql_root_password: "root"
